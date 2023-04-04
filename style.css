@@ -1,0 +1,181 @@
+body, html {
+	position: relative;
+	background: linear-gradient(to top, #F6F0C4, #FFEBEE);
+	margin: 0;
+	color: #424242;
+	font-family: 'Alegreya', serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	}
+
+div {
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: #424242;
+}
+
+header {
+	background: url(img/bg.png) no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-size: 30px;
+	background-color: #CC99FE;
+	color: #f5f5f5;
+	margin: 0;
+	position: relative;
+}
+
+.header {
+	width: 100%;
+	margin: 0;
+	padding:70px 0;
+	z-index: 10;
+}
+.neft {
+	z-index: 1000;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+
+}
+
+
+
+main {
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+}
+.container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.page_box {
+	position: relative;
+	max-width: 950px;
+	width: 100%;
+	margin: 75px;
+	border: 15px;
+	
+}
+
+.inner_box {
+	width: 950px;
+	height: 450px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+
+
+
+.wheel {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	z-index: 1000;
+	background: url(img/wheel.png) no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 450px;
+	width: 600px;
+}
+
+.lake {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	z-index: 1000;
+	background: url(img/lake.png) no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 450px;
+	width: 600px;
+}
+
+.forest {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	z-index: 1000;
+	background: url(img/forest.png) no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 450px;
+	width: 600px;
+}
+
+.ice {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	z-index: 1000;
+	background: url(img/ice.png) no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 450px;
+	width: 600px;
+}
+
+
+
+
+
+.text_box {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	height: 350px;
+	width: 400px;
+	z-index: 1002;
+	position: absolute;
+	bottom: 0%;
+	right: 0%;
+	background-color: #f5f5f5;
+}
+
+.marg {
+	margin:15px 0;
+}
+.title {
+ font-size: 35px;
+ font-weight: normal;
+}
+.line {
+	border: 0.1mm solid #424242;
+	width: 50px;
+}
+.sub_title {
+	font-size: 16px;
+}
+
+
+
+.line_end {
+	width: 100%;
+	margin: 10px;
+	max-width: 800px;
+	height: 3px;
+	background-color: #111;
+	align-items: center;
+
+}
+
+.end {
+	padding: 15px;
+	width: 100%;
+	max-width: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
